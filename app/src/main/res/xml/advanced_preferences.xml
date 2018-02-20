@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    android:key="@string/preference_settings_advanced_key"
+    android:title="@string/preference_settings_advanced">
+    <PreferenceCategory android:title="@string/preference_settings_advanced_limits">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/automatic_limits_key"
+            android:summary="@string/automatic_limits_summary"
+            android:title="@string/automatic_limits_title" />
+        <angelo.itl.arduinoairqualitymonitor.activity.setting.CustomSeekBarPreference
+            android:defaultValue="100"
+            android:key="@string/limit_key"
+            android:max="400"
+            android:summary="@string/preference_air_monitor_gas_limit_summary"
+            android:title="@string/preference_air_monitor_gas_limit_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_air_monitor_update_interval_category_title">
+        <ListPreference
+            android:defaultValue="1000"
+            android:entries="@array/update_interval"
+            android:entryValues="@array/update_interval_values"
+            android:key="update_interval"
+            android:title="@string/preference_air_monitor_update_interval_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_view_altimeter_height">610dp</dimen>
+    <dimen name="list_view_altimeter_width">230dp</dimen>
+    <dimen name="table_width">1000dp</dimen>
+    <dimen name="air_monitor_list_view_height">135dp</dimen>
+    <dimen name="air_monitor_progressbar_width">190dp</dimen>
+    <dimen name="air_monitor_progressbar_height">30dp</dimen>
+    <dimen name="list_view_gas_list">480dp</dimen>
+    <dimen name="air_quality_text_view">28sp</dimen>
+    <dimen name="air_quality_indicator">225dp</dimen>
+
+    <dimen name="margin_sublayout_main">19dp</dimen>
+    <dimen name="dimen_divider_main">5dp</dimen>
+    <dimen name="connect_button">150dp</dimen>
+    <dimen name="connect_button_margin">8dp</dimen>
+
+    <dimen name="bluetooth_tv_margin_top">13dp</dimen>
+    <dimen name="text_size_bt_textview">15sp</dimen>
+    <dimen name="margintop_progresbar_main">8dp</dimen>
+    <dimen name="bluetooth_image_width">60dp</dimen>
+    <dimen name="bluetooth_image_height">45dp</dimen>
+
+    <dimen name="margin_start_bt_image">17dp</dimen>
+    <dimen name="margin_top_bt_image">11dp</dimen>
+    <dimen name="arduino_image_width">45dp</dimen>
+    <dimen name="arduino_image_height">55dp</dimen>
+    <dimen name="margin_end_img_arduino">16dp</dimen>
+    <dimen name="connection_prop_padding">3dp</dimen>
+    <dimen name="connection_prop_margin_top">15dp</dimen>
+
+    <dimen name="weather_progressbar_vertical_width">60dp</dimen>
+    <dimen name="weather_progressbar_height">250dp</dimen>
+    <dimen name="listview_weather_width">237dp</dimen>
+
+    <dimen name="list_view_weather_margin_right">15dp</dimen>
+    <dimen name="list_view_weather_height">500dp</dimen>
+    <dimen name="indicator_weather">75dp</dimen>
+
+    <dimen name="color_pressure_indicator_width">30dp</dimen>
+    <dimen name="color_pressure_indicator_height">15dp</dimen>
+    <dimen name="progress_bar_weather_margin_right">8dp</dimen>
+
+    <dimen name="plot_dimen">38px</dimen>
+    <dimen name="plot_dimen_rt">60px</dimen>
+</resources>

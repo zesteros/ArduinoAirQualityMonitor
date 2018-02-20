@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/co2_plot"
+        style="@style/APDefacto.Light"
+        androidPlot.backgroundPaint.color="@color/white"
+        androidPlot.borderPaint.color="@color/white"
+        androidPlot.domainLabelWidget.labelPaint.textSize="20sp"
+        androidPlot.graphWidget.backgroundPaint.color="@color/white"
+        androidPlot.graphWidget.domainLabelPaint.textSize="15sp"
+        androidPlot.graphWidget.domainOriginLabelPaint.textSize="15sp"
+        androidPlot.graphWidget.gridBackgroundPaint.color="@color/white"
+        androidPlot.graphWidget.marginBottom="25dp"
+        androidPlot.graphWidget.marginLeft="15dp"
+        androidPlot.graphWidget.marginRight="10dp"
+        androidPlot.graphWidget.marginTop="20dp"
+        androidPlot.graphWidget.rangeLabelPaint.textSize="15sp"
+        androidPlot.graphWidget.rangeOriginLabelPaint.textSize="15sp"
+        androidPlot.rangeLabelWidget.labelPaint.textSize="20sp"
+        androidPlot.title="@string/plot_co2_title"
+        androidPlot.titleWidget.labelPaint.textSize="20sp"
+        androidplot.renderMode="use_background_thread"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

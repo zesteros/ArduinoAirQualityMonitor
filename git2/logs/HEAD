@@ -1,0 +1,156 @@
+0000000000000000000000000000000000000000 6ced67614eb336499895345cb27f49ab1d5cd3d7 zesteros <angelo_384@hotmail.com> 1477133490 -0500	commit (initial): first commit
+6ced67614eb336499895345cb27f49ab1d5cd3d7 1adb1202a872eab76ddfc72ddf42d2289aaf5472 zesteros <angelo_384@hotmail.com> 1477133770 -0500	commit: ino files added
+1adb1202a872eab76ddfc72ddf42d2289aaf5472 18956f71e74f4c98e149ada30d2455489adb8e7f zesteros <angelo_384@hotmail.com> 1477133911 -0500	commit: [ADD]Arduino libraries used added
+18956f71e74f4c98e149ada30d2455489adb8e7f 9740a1f4547c963521dc771521109b72daf3acf5 zesteros <angelo_384@hotmail.com> 1477134373 -0500	commit: [REF] testing alarm sounds
+9740a1f4547c963521dc771521109b72daf3acf5 05c1f792deee293f0f186000f91a34a2b898ef7b zesteros <angelo_384@hotmail.com> 1477134796 -0500	commit: [ADD] alarm ppm sounds added :D
+05c1f792deee293f0f186000f91a34a2b898ef7b 0ac806e504f9ed7c801bcdc62bb78eb4f114715a zesteros <angelo_384@hotmail.com> 1477135365 -0500	commit: [FIX] delay in bt debug fixed
+0ac806e504f9ed7c801bcdc62bb78eb4f114715a 60af86ce1d8425d36ad8d6e8e2ab5d895242d3bf zesteros <angelo_384@hotmail.com> 1477616954 -0600	commit: [ADD] testing firebase libraries
+60af86ce1d8425d36ad8d6e8e2ab5d895242d3bf 0794ffddeeeb993715eabb131bf0334343430d0f zesteros <angelo_384@hotmail.com> 1477623344 -0600	commit: [FIX] more tx speed
+0794ffddeeeb993715eabb131bf0334343430d0f 36b4ceb4758e888e5aefd7f82f4cfc803c901404 zesteros <angelo_384@hotmail.com> 1477701362 -0600	commit: [FIX]Fixed layout on xxhdpi devices
+36b4ceb4758e888e5aefd7f82f4cfc803c901404 f2c332c4e9a065ab54d8b650e4ce19c2d77a385d zesteros <angelo_384@hotmail.com> 1477701568 -0600	commit: [ADD] hide bt connection ui when bt is disconnected in task
+f2c332c4e9a065ab54d8b650e4ce19c2d77a385d 56f5e401546c294f5967a7b9cab016de5d0cb0c9 zesteros <angelo_384@hotmail.com> 1477701698 -0600	commit: [FIX]Alert UI exception handled
+56f5e401546c294f5967a7b9cab016de5d0cb0c9 78b94f5980467ef8b86fd25cdfc1636444f9e288 zesteros <angelo_384@hotmail.com> 1477701765 -0600	commit: [ADD] timeout connection preference incorporated
+78b94f5980467ef8b86fd25cdfc1636444f9e288 b98f34b81bc35b180c082a1fed2c4386eb3db7b5 zesteros <angelo_384@hotmail.com> 1477701811 -0600	commit: [ADD] custom timeout preference added to xml files
+b98f34b81bc35b180c082a1fed2c4386eb3db7b5 ea55995a47f6728f03fb83ea6d6d09d3066cd1d3 zesteros <angelo_384@hotmail.com> 1477702790 -0600	commit: [ADD] method to disconnect bt socket
+ea55995a47f6728f03fb83ea6d6d09d3066cd1d3 25be4a3f2b8276660687988c3978e8b4eb608838 zesteros <angelo_384@hotmail.com> 1477702821 -0600	commit: [ADD] new instance of timeout pref
+25be4a3f2b8276660687988c3978e8b4eb608838 ec6f78b71a184a7a267331faa4d2b2322d5b34ea zesteros <angelo_384@hotmail.com> 1477702867 -0600	commit: [FIX] fixed timeout variable instances
+ec6f78b71a184a7a267331faa4d2b2322d5b34ea 82a20829ef0eba1de962d4cd5846f6723acaaea8 zesteros <angelo_384@hotmail.com> 1477702906 -0600	commit: [ADD] new toast message added to strings.xml
+82a20829ef0eba1de962d4cd5846f6723acaaea8 903ebe97049a0d4bcdc543a9aa9c6084169fa039 zesteros <angelo_384@hotmail.com> 1477702932 -0600	commit: [ADD] timeout connection pref
+903ebe97049a0d4bcdc543a9aa9c6084169fa039 1e31787fa5f15c24e54da9fd20efca1fb1c28a89 zesteros <angelo_384@hotmail.com> 1477719797 -0600	commit: [REF] unnecessary files retired
+1e31787fa5f15c24e54da9fd20efca1fb1c28a89 92ea35d4ef2ec5607868800f2c81ebd8b519efee zesteros <angelo_384@hotmail.com> 1477719801 -0600	commit (amend): [REF] unnecessary files retired
+92ea35d4ef2ec5607868800f2c81ebd8b519efee 43e28d9fdc1b2c1c38285d7fe9e2a0d26ea5f7a6 zesteros <angelo_384@hotmail.com> 1478986068 -0600	commit: [REF] v1.7: Connected Task, testing background alarm
+43e28d9fdc1b2c1c38285d7fe9e2a0d26ea5f7a6 a227c43e60c66702c4ae3ef41283524ec00c6a28 zesteros <angelo_384@hotmail.com> 1478986131 -0600	commit: [REF] v1.7: Connect Thread, adding main activity parameter
+a227c43e60c66702c4ae3ef41283524ec00c6a28 d3da39b2a6944cae5d1c851f4f20e320ed99568a zesteros <angelo_384@hotmail.com> 1478986210 -0600	commit: [FIX] v1.7: Bluetooth Dialog, broadcast unregister fix
+d3da39b2a6944cae5d1c851f4f20e320ed99568a 0ba4ca1d59aae53a95f2ea1ad7503c93829334ef zesteros <angelo_384@hotmail.com> 1478986346 -0600	commit: [REF] 1.7: Message Handler, testing background alarm
+0ba4ca1d59aae53a95f2ea1ad7503c93829334ef 571695c59a244dc86735493c76e08f869a6a3b0f zesteros <angelo_384@hotmail.com> 1478986402 -0600	commit: [FIX] 1.7: DatabaseController, Fixing .CSV export
+571695c59a244dc86735493c76e08f869a6a3b0f b0be996ccc5183a8f83647b10de4a8266e3dde38 zesteros <angelo_384@hotmail.com> 1478986524 -0600	commit: [ADD] 1.7: MainActivity, javadoc added
+b0be996ccc5183a8f83647b10de4a8266e3dde38 ed3953296e8258ba35c64669a476710343fbc768 zesteros <angelo_384@hotmail.com> 1478986644 -0600	commit: [ADD] 1.7: Strings values, .CSV route toast message
+ed3953296e8258ba35c64669a476710343fbc768 463774546db0edd8fd4880c6ac87f69cf86d23aa zesteros <angelo_384@hotmail.com> 1479707577 -0600	commit: [REF] 1.8: Task changed for thread
+463774546db0edd8fd4880c6ac87f69cf86d23aa b1fa126797ce267ec86b520177fde1ac86875736 zesteros <angelo_384@hotmail.com> 1479707675 -0600	commit: [ADD] 1.8: Order by, record exists and import database features added
+b1fa126797ce267ec86b520177fde1ac86875736 a14ccd16bb3c5febcfbef0927e765876b090622a zesteros <angelo_384@hotmail.com> 1479707709 -0600	commit: [ADD] 1.8: Fixed database data types
+a14ccd16bb3c5febcfbef0927e765876b090622a 24e80add1cf51260e587b698d652636885017a18 zesteros <angelo_384@hotmail.com> 1479707795 -0600	commit: [ADD] 1.8: Insert data to database formatted into float
+24e80add1cf51260e587b698d652636885017a18 98a1654f59993629deed4454e75f5e43b8c6f3c5 zesteros <angelo_384@hotmail.com> 1479707872 -0600	commit: [ADD] 1.8: Drawer items code block compressed
+98a1654f59993629deed4454e75f5e43b8c6f3c5 ba761fd27435e319b124071e45ec3cf2198c91ed zesteros <angelo_384@hotmail.com> 1479707991 -0600	commit: [ADD] 1.8: Null pointer exception handled
+ba761fd27435e319b124071e45ec3cf2198c91ed 796fd874400e71a705e57f6f92ddfe311bc3832e zesteros <angelo_384@hotmail.com> 1479708086 -0600	commit: [ADD] 1.8: retired unnecessary code block
+796fd874400e71a705e57f6f92ddfe311bc3832e 59839586a65f8d46efae13fa1b21ef1ac6c3fbd5 zesteros <angelo_384@hotmail.com> 1479708176 -0600	commit: [ADD] 1.8: Sort and delete features added (dialogs and queries)
+59839586a65f8d46efae13fa1b21ef1ac6c3fbd5 f5541da406b1a0d1fec522accd086293d43e2441 zesteros <angelo_384@hotmail.com> 1479708283 -0600	commit: [ADD] 1.8: history plot feature added to nav bar
+f5541da406b1a0d1fec522accd086293d43e2441 f775fc72d6291ffc441f32b5e3a979aad603f5f9 zesteros <angelo_384@hotmail.com> 1479708387 -0600	commit: [ADD] 1.8: history plot icons added
+f775fc72d6291ffc441f32b5e3a979aad603f5f9 022c467bb5ceb24475563c6e6740bdf0546aebac zesteros <angelo_384@hotmail.com> 1479708452 -0600	commit: [ADD] 1.7: dynamic gas plot updated
+022c467bb5ceb24475563c6e6740bdf0546aebac 5688c3864d191471265b88ed18a2ca83fac4b644 zesteros <angelo_384@hotmail.com> 1479708512 -0600	commit: [ADD] 1.8 Added menu and strings res for history plot feature
+5688c3864d191471265b88ed18a2ca83fac4b644 347c7d42310342cd2865c18d8517540b29d7958e zesteros <angelo_384@hotmail.com> 1479709233 -0600	commit: [ADD] 1.8 Added Connected thread(task substitute)
+347c7d42310342cd2865c18d8517540b29d7958e 0d07b8ed09afd282744a30c02ede94e48367011f zesteros <angelo_384@hotmail.com> 1479709269 -0600	commit: [ADD] 1.8: Historical all gases plot added
+0d07b8ed09afd282744a30c02ede94e48367011f 46c00c0ea26defb7dcad662dd21f4fa2cb236245 zesteros <angelo_384@hotmail.com> 1479709289 -0600	commit: [ADD] 1.8: Historical CO2 plot added
+46c00c0ea26defb7dcad662dd21f4fa2cb236245 2f5da210904183d8013f268b6f6582b3e70414a1 zesteros <angelo_384@hotmail.com> 1479709366 -0600	commit: [ADD] 1.8.1: Historical fragments plot added
+2f5da210904183d8013f268b6f6582b3e70414a1 bdb77535a27bb2c538b0e60fd9be8d3016f5ccb9 zesteros <angelo_384@hotmail.com> 1479709384 -0600	commit: [ADD] 1.8.1: Historical icon plot added
+bdb77535a27bb2c538b0e60fd9be8d3016f5ccb9 f40875fc599804206067551ff3fbf571a7fbda78 zesteros <angelo_384@hotmail.com> 1479807156 -0600	commit: [ADD] 1.8.1: Co2RT Panzoom added
+f40875fc599804206067551ff3fbf571a7fbda78 2a9de000a56849069983bebd01bbbb309def080e zesteros <angelo_384@hotmail.com> 1479807296 -0600	commit: [ADD] 1.8.1: PanZoom added and padding fixes, also a progress dialog to wait graphic charge
+2a9de000a56849069983bebd01bbbb309def080e 24f973e36b25c9558633cad8069ef1f21c6f314e zesteros <angelo_384@hotmail.com> 1479807424 -0600	commit: [ADD] 1.8.1: Encapsulation, graphic colors ordered by alpha and PanZoom added
+24f973e36b25c9558633cad8069ef1f21c6f314e f48aa6021cdc40ad8c021b97b8a45c3cb223f96a zesteros <angelo_384@hotmail.com> 1479807495 -0600	commit: [ADD] 1.8.1: PanZoom Class Added
+f48aa6021cdc40ad8c021b97b8a45c3cb223f96a fef5ec2c43f04593cdb7ab77b38c0602aecd340f zesteros <angelo_384@hotmail.com> 1479807595 -0600	commit: [ADD] 1.8.1: Fixed grid area padding and PanZoom Added
+fef5ec2c43f04593cdb7ab77b38c0602aecd340f 5d0cd7ef64d4c0757058e969d94d01113f40a964 zesteros <angelo_384@hotmail.com> 1479807672 -0600	commit: [FIX] 1.8.1: Delete register toast fixed
+5d0cd7ef64d4c0757058e969d94d01113f40a964 1c9e61ff06a345ce6197426109d2ad68c17a4ed7 zesteros <angelo_384@hotmail.com> 1479807736 -0600	commit: [ADD] 1.8.1: Global variable to know if a activity is enabled (for onPause and onResume of main activity purposes)
+1c9e61ff06a345ce6197426109d2ad68c17a4ed7 734a482361a3d7bdcae70a3a992a0d255d884752 zesteros <angelo_384@hotmail.com> 1479807812 -0600	commit: [ADD] 1.8.1: Plot fragments changed for Activities by performance purposes
+734a482361a3d7bdcae70a3a992a0d255d884752 e3b8a185b17343a914ecc1e51c3cbe96f864412b zesteros <angelo_384@hotmail.com> 1479807904 -0600	commit: [FIX] 1.8.1: Fixed three points no menu in plot activities
+e3b8a185b17343a914ecc1e51c3cbe96f864412b 663c7b82ae9784fdda24edeccc1e4fc9cf6e93e7 zesteros <angelo_384@hotmail.com> 1479807942 -0600	commit: [ADD] 1.8.1: Gases ordered by alpha priority
+663c7b82ae9784fdda24edeccc1e4fc9cf6e93e7 ce12a47da9346cf32e42a27ba5654fec65d13996 zesteros <angelo_384@hotmail.com> 1479807979 -0600	commit: [REF] 1.8.1: Rename of layouts
+ce12a47da9346cf32e42a27ba5654fec65d13996 e3f2bc19b7eb40e02d453f0105c7b17e4e66950b zesteros <angelo_384@hotmail.com> 1479808013 -0600	commit: [ADD] 1.8.1: Plot activities declared
+e3f2bc19b7eb40e02d453f0105c7b17e4e66950b 7741c9f73ad6cc855cacc13017e1b9910cbc0c6e zesteros <angelo_384@hotmail.com> 1479808053 -0600	commit: [ADD] 1.8.1:Dynamic plot example retired
+7741c9f73ad6cc855cacc13017e1b9910cbc0c6e c0a81c59b72a94cbadddefbf38277e28f71cc894 zesteros <angelo_384@hotmail.com> 1479808086 -0600	commit: [ADD] 1.8.1: Global nav drawer intent
+c0a81c59b72a94cbadddefbf38277e28f71cc894 876e7b3665f2ac310951ad9c5351ece59ba6dea1 zesteros <angelo_384@hotmail.com> 1479808145 -0600	commit: [ADD] 1.8.1: Version updated
+876e7b3665f2ac310951ad9c5351ece59ba6dea1 f742b4055d986f6ea46133fe44cf684d1cfcbda9 zesteros <angelo_384@hotmail.com> 1481039812 -0600	commit: [REF] 1.8.1: Bluetooth dialog: search available devices list view removed
+f742b4055d986f6ea46133fe44cf684d1cfcbda9 0709bf7eb3f4b44839da5747e11c29287ae23452 zesteros <angelo_384@hotmail.com> 1481039904 -0600	commit: [REF] 1.8.1: AirMonitor fragment: Gas indicator as image view added and dinamic UI colors implemented
+0709bf7eb3f4b44839da5747e11c29287ae23452 c7281ae0a1c1471c6d8e9400966f4ee300485dad zesteros <angelo_384@hotmail.com> 1481041005 -0600	commit: [REF] 1.8.1: Globar variable: Added licence header
+c7281ae0a1c1471c6d8e9400966f4ee300485dad cc044efe2ac5b8ad702cd006cca4265876cfd8b9 zesteros <angelo_384@hotmail.com> 1481041081 -0600	commit: [REF] 1.8.1: Main Activity: Added snackbar instead of toast, fixed action bar color
+cc044efe2ac5b8ad702cd006cca4265876cfd8b9 f23d6e66c61bffc632c48bce857e00b1f7a67a17 zesteros <angelo_384@hotmail.com> 1481041132 -0600	commit: [FIX] 1.8.1: Bluetooth dialog layout: fixed height in dialog
+f23d6e66c61bffc632c48bce857e00b1f7a67a17 b78883bbcd9b5454e6e3164ada02fc37d0186442 zesteros <angelo_384@hotmail.com> 1481041221 -0600	commit: [REF] 1.8.1: Air Monitor layout: Air monitor indicator added
+b78883bbcd9b5454e6e3164ada02fc37d0186442 3ca29929998fc2584368d33eefb6a211e7fc8696 zesteros <angelo_384@hotmail.com> 1481041285 -0600	commit: [REF] 1.8.1: UI ListViews Row Layout: text centered
+3ca29929998fc2584368d33eefb6a211e7fc8696 2470f9b50c265b4ed4f286600f37fdd0c4d454e9 zesteros <angelo_384@hotmail.com> 1481041345 -0600	commit: [REF] 1.8.1: Values: Air monitor indicator, colors and strings added
+2470f9b50c265b4ed4f286600f37fdd0c4d454e9 81f3462f3e94670ffa27658c2b641f825889a643 zesteros <angelo_384@hotmail.com> 1481157019 -0600	commit: [ADD] 1.8.1: Air monitor: LRU cache added for imageview of indicators
+81f3462f3e94670ffa27658c2b641f825889a643 52245e6c1d3efed36fe7b15b043bfa027e26c217 zesteros <angelo_384@hotmail.com> 1481157183 -0600	commit: [ADD] 1.8.1: Values: Class for constants
+52245e6c1d3efed36fe7b15b043bfa027e26c217 1c433de9cd3b2ff7f705a0adb9dfaa877c0dce85 zesteros <angelo_384@hotmail.com> 1481157237 -0600	commit: [ADD] 1.8.1: LRU Cache: class added
+1c433de9cd3b2ff7f705a0adb9dfaa877c0dce85 1c92b1bf668c9ca176a5d0a27c258e732770b6d4 zesteros <angelo_384@hotmail.com> 1481157300 -0600	commit: [REF] 1.8.1: Ratio Gas Computer: Class for compute ratio of gases added
+1c92b1bf668c9ca176a5d0a27c258e732770b6d4 8249cdbd6f3d89e243ea56260837a6891d238c06 zesteros <angelo_384@hotmail.com> 1481157431 -0600	commit: [REF] 1.8.1: Preferences: Added normal and hazard limits set as seekbar
+8249cdbd6f3d89e243ea56260837a6891d238c06 ed42cf2b029261fce5f2223fa7452fac233a74de zesteros <angelo_384@hotmail.com> 1481157487 -0600	commit: [ADD] 1.8.1: Seekbar: Custom seekbar preference class added
+ed42cf2b029261fce5f2223fa7452fac233a74de cbbcfdc72dcd21f75384dab277031ccbc17debcd zesteros <angelo_384@hotmail.com> 1481157568 -0600	commit: [ADD] 1.8.1: strings: Air monitor preferences resources added
+cbbcfdc72dcd21f75384dab277031ccbc17debcd 099588b694cbed845cfc684725eac58c11969fa8 zesteros <angelo_384@hotmail.com> 1481157616 -0600	commit: [ADD] 1.8.1: preferences xml: Seek bar limits added to prefs
+099588b694cbed845cfc684725eac58c11969fa8 6fea218cebbe9796b08903fb594414d8c9499c7c zesteros <angelo_384@hotmail.com> 1481458065 -0600	merge origin/master: Fast-forward
+6fea218cebbe9796b08903fb594414d8c9499c7c a2e6e3960ca4793ad200120e07c596f401db9faf zesteros <angelo_384@hotmail.com> 1481786703 -0600	commit: [ADD] 1.8.1: JUnit: Basic unit test added
+a2e6e3960ca4793ad200120e07c596f401db9faf d3772cb5e79ed0f58020126414cfa98fbf326aeb zesteros <angelo_384@hotmail.com> 1481786792 -0600	commit: [ADD] 1.8.1: Airmonitor: Patch for review consistent data and multi-activities support
+d3772cb5e79ed0f58020126414cfa98fbf326aeb ccab65163f09049f78f74514b895773374a7e161 zesteros <angelo_384@hotmail.com> 1481786833 -0600	commit: [ADD] 1.8.1: Air monitor values: Fixed date format
+ccab65163f09049f78f74514b895773374a7e161 21c4eba7dbbb147bb757710bb6643c219c576051 zesteros <angelo_384@hotmail.com> 1481786935 -0600	commit: [REF] 1.8.1: MainActivity: Animations added, fragments changed by activities, Internet connection option added
+21c4eba7dbbb147bb757710bb6643c219c576051 e4df6ab9b8b7190f913f1db4630d54467427087c zesteros <angelo_384@hotmail.com> 1481787090 -0600	commit: [REF] 1.8.1: Many files: Folder refactoring
+e4df6ab9b8b7190f913f1db4630d54467427087c 8d139d03432375fddb406182466e06140184a253 zesteros <angelo_384@hotmail.com> 1481787175 -0600	commit: [REF] 1.8.1: Preferences: Preference fragment changed by activity and added missing custom features (import db)
+8d139d03432375fddb406182466e06140184a253 28c1435a2deac882d1a526bbb53e78d25944b833 zesteros <angelo_384@hotmail.com> 1481787203 -0600	commit: [REF] 1.8.1: Task: Retired class
+28c1435a2deac882d1a526bbb53e78d25944b833 166d919d5b71130c2c0798837a6f8fc7c4d1e79e zesteros <angelo_384@hotmail.com> 1481787249 -0600	commit: [REF] 1.8.1: ConnectedThread: Folder refactoring
+166d919d5b71130c2c0798837a6f8fc7c4d1e79e 34482bf30618e829880b7c2743cc082b6f994d9f zesteros <angelo_384@hotmail.com> 1481787283 -0600	commit: [REF] 1.8.1: Folder: folder refactoring
+34482bf30618e829880b7c2743cc082b6f994d9f c7574d3d86ed94f82836eb0a8cbb49f0c98561ca zesteros <angelo_384@hotmail.com> 1481787317 -0600	commit: [REF] 1.8.1: Folder: Folder refactoring
+c7574d3d86ed94f82836eb0a8cbb49f0c98561ca 5f668e03a21ce9aff8245ae69d79c5c55a3f7c81 zesteros <angelo_384@hotmail.com> 1481787449 -0600	commit: [REF] 1.8.1: DatabaseController: Performance enhanced by sqlite3 queries, previously determined (for historical plots)
+5f668e03a21ce9aff8245ae69d79c5c55a3f7c81 57838394e811d92a80f5dbcefb8069a0ba0ec92d zesteros <angelo_384@hotmail.com> 1481787484 -0600	commit: [REF] 1.8.1: Folder: Folder refactoring
+57838394e811d92a80f5dbcefb8069a0ba0ec92d 1c8ee76a081c9c65c6b2e1d7095a61e4e3321ee4 zesteros <angelo_384@hotmail.com> 1481787508 -0600	commit: [REF] 1.8.1: Folder: Folder refactoring
+1c8ee76a081c9c65c6b2e1d7095a61e4e3321ee4 bfd4452293dbe70d739863be66793b797f1370b5 zesteros <angelo_384@hotmail.com> 1481787559 -0600	commit: [REF] 1.8.1: Realtime plots: Changed by activities
+bfd4452293dbe70d739863be66793b797f1370b5 e9d70c3050f1857dc8aa7290d51af1f782588c82 zesteros <angelo_384@hotmail.com> 1481787579 -0600	commit: [REF] 1.8.1: Folder: Folder refactoring
+e9d70c3050f1857dc8aa7290d51af1f782588c82 4e645bbcbca87106070cc6b3f9d69f16535b9624 zesteros <angelo_384@hotmail.com> 1481787623 -0600	commit: [REF] 1.8.1: GlobalVariable: Connect button, bluetooth connection and internet flags added
+4e645bbcbca87106070cc6b3f9d69f16535b9624 845dc2d941c312a65b9af8407e1977aaf51d0536 zesteros <angelo_384@hotmail.com> 1481787667 -0600	commit: [ADD] 1.8.1: Internet: Enum for states constants
+845dc2d941c312a65b9af8407e1977aaf51d0536 8a27041e0bcf09aace8f8a10a7b4219300f5ca09 zesteros <angelo_384@hotmail.com> 1481787791 -0600	commit: [ADD] 1.8.1: Http Communication: Thread to receive data from http and the app became to remote monitoring (From wifi arduino)
+8a27041e0bcf09aace8f8a10a7b4219300f5ca09 10cbadd6ab24fe47fce52e75e46ddce3dfee6ab1 zesteros <angelo_384@hotmail.com> 1481787836 -0600	commit: [ADD] 1.8.1: Roundbuttom: added drawable resource for round button when is connected
+10cbadd6ab24fe47fce52e75e46ddce3dfee6ab1 8b586587e375502c2f99b29cdf1cfab4625d7c6e zesteros <angelo_384@hotmail.com> 1481787905 -0600	commit: [REF] main activity layout: Refactoring for round button UI instead of switch
+8b586587e375502c2f99b29cdf1cfab4625d7c6e 8eec3f7028f51302c3eb76742d5951566c541a00 zesteros <angelo_384@hotmail.com> 1481787971 -0600	commit: [REF] 1.8.1: Styles: Added styles for custom activities (prefs)
+8eec3f7028f51302c3eb76742d5951566c541a00 b3e99bee5a9623ef4e8c98e9854eb7fa17b08b76 zesteros <angelo_384@hotmail.com> 1481788122 -0600	commit: [REF] 1.8.1:Styles: added styles for action bar in settings
+b3e99bee5a9623ef4e8c98e9854eb7fa17b08b76 f86582d661d94fe045fd1faf40cb8472c286f9ca zesteros <angelo_384@hotmail.com> 1481788225 -0600	commit: [REF] 1.8.1: General: minor bug fixes and refactoring
+f86582d661d94fe045fd1faf40cb8472c286f9ca aebea04ed0c3defcc652a41f3a99071e9f5bebcc zesteros <angelo_384@hotmail.com> 1481788271 -0600	commit: [REF] Settings: Added a screenpreference for advanced settings
+aebea04ed0c3defcc652a41f3a99071e9f5bebcc c9addefd5975a67d47e5575d5563f27463eedc7f zesteros <angelo_384@hotmail.com> 1481788306 -0600	commit: [REF] 1.8.1: Manifest: Internet permission added and activities declared
+c9addefd5975a67d47e5575d5563f27463eedc7f 9e63098765e877cd63a90c2e25c43390b132d7aa zesteros <angelo_384@hotmail.com> 1481788327 -0600	commit: [REF] Gradle: Unit test declared
+9e63098765e877cd63a90c2e25c43390b132d7aa 0d244aa7875b40e1b05abea34839e36e5d321b46 zesteros <angelo_384@hotmail.com> 1481788785 -0600	commit: [REF] Arduino: Added serial http print to sketch
+0d244aa7875b40e1b05abea34839e36e5d321b46 8d78e9f5de235ce8f176417f867d20c92b4b8796 zesteros <angelo_384@hotmail.com> 1481854384 -0600	commit: [REF] AirMonitor: Added ppm limits to UI, and fixed lag in airmonitor quality changes
+8d78e9f5de235ce8f176417f867d20c92b4b8796 4109f58caf650a9137c59a6e0253414ce98ebf3b zesteros <angelo_384@hotmail.com> 1481854457 -0600	commit: [REF] AirMonitorValues: Normal values refactored
+4109f58caf650a9137c59a6e0253414ce98ebf3b f20e3721c3fdf823b71488aef448e027805b4ab9 zesteros <angelo_384@hotmail.com> 1481854522 -0600	commit: [REF] MainActivity: Notification items added to extern class for oop
+f20e3721c3fdf823b71488aef448e027805b4ab9 2dff29634df7c4d6348a9831f6648783b661c1d8 zesteros <angelo_384@hotmail.com> 1481854749 -0600	commit: [REF] General: Minor bug fixes
+2dff29634df7c4d6348a9831f6648783b661c1d8 b1b75700a3d308bdba38cabbf23601a1e9399dd3 zesteros <angelo_384@hotmail.com> 1481854836 -0600	commit: [REF] Settings: Seek bar refactored implements two limits in one and Snackbar changed by toast
+b1b75700a3d308bdba38cabbf23601a1e9399dd3 6863c38891e7c5d8ca0a6274ee4d2e1d4dc7495d zesteros <angelo_384@hotmail.com> 1481854886 -0600	commit: [REF] Seekbar preference: Text size of seekbar preference changed
+6863c38891e7c5d8ca0a6274ee4d2e1d4dc7495d e909366ae767fb93b3e0002a9a42a525f50adb58 zesteros <angelo_384@hotmail.com> 1481854943 -0600	commit: [REF]List adapter: Adapter fixed for showing 3 values (limits and read value)
+e909366ae767fb93b3e0002a9a42a525f50adb58 451948e6feb89c85a5f5ab020eed29f3914921bb zesteros <angelo_384@hotmail.com> 1481854996 -0600	commit: [ADD] ListAdapterSimple: added for another else lists
+451948e6feb89c85a5f5ab020eed29f3914921bb d8cbd3e32d844e72b912a21dc9d36642516fd581 zesteros <angelo_384@hotmail.com> 1481855092 -0600	commit: [ADD] OOP: applying principles of object oriented programming separating large methods in classes
+d8cbd3e32d844e72b912a21dc9d36642516fd581 98b3630694a2e8c67e4a6e5db6b74acb93b2c4c0 zesteros <angelo_384@hotmail.com> 1481855144 -0600	commit: [REF] Seekbar computer: Added two limits in one with multidimensional array
+98b3630694a2e8c67e4a6e5db6b74acb93b2c4c0 3ab597e8baf3883adace8dd45b5a615ac2169b00 zesteros <angelo_384@hotmail.com> 1481855211 -0600	commit: [REF] InternetConnection: alarm class added and it response to changes in digital output of the sensor
+3ab597e8baf3883adace8dd45b5a615ac2169b00 3189c1c9c23394c26751cd7cd112b6d9549d1382 zesteros <angelo_384@hotmail.com> 1481855314 -0600	commit: [REF]Dimens: Independent dimens added
+3189c1c9c23394c26751cd7cd112b6d9549d1382 a2a0c33dfe30fbbd9a1d5a5f8303605bc4973371 zesteros <angelo_384@hotmail.com> 1481855362 -0600	commit: [REF]Listrow: Layouts for adapter in lists added
+a2a0c33dfe30fbbd9a1d5a5f8303605bc4973371 12d3d3f835b49b578de0bae530764cd7c711967e zesteros <angelo_384@hotmail.com> 1481855388 -0600	commit: [REF]String: added missing resources
+12d3d3f835b49b578de0bae530764cd7c711967e aa0d560dd8c17e97fe560059642df0c023bc4c15 zesteros <angelo_384@hotmail.com> 1481855437 -0600	commit: [REF] Settings: ratio limits configured correctly
+aa0d560dd8c17e97fe560059642df0c023bc4c15 0e38040e354f8ae53407a9e3cf06f395c53bf819 zesteros <angelo_384@hotmail.com> 1481855487 -0600	commit: [REF] Manifest: Migrated activities added
+0e38040e354f8ae53407a9e3cf06f395c53bf819 5b89c1969dfbc952ed391e62691098ea91c942ae zesteros <angelo_384@hotmail.com> 1481855591 -0600	commit: [REF] Gradle: Upgrade to app version
+5b89c1969dfbc952ed391e62691098ea91c942ae 63051bd7251dae06ecc73b591f5a7bb22b262a64 zesteros <angelo_384@hotmail.com> 1487967765 -0600	commit: [REF] AirMonitorActivity: Real time average added and location of user determined by air quality (interior of exterior)
+63051bd7251dae06ecc73b591f5a7bb22b262a64 5f68230cfbce9757e63c3f4e69f161a7964c3bd8 zesteros <angelo_384@hotmail.com> 1487967879 -0600	commit: [REF] AirMonitorConstans: Automatic level added
+5f68230cfbce9757e63c3f4e69f161a7964c3bd8 0100bbcb8074d6868c042c4f616882677100c1c6 zesteros <angelo_384@hotmail.com> 1487967962 -0600	commit: [ADD] AlarmActivity: An activity launched when the gas alarm is triggered
+0100bbcb8074d6868c042c4f616882677100c1c6 58a9265d2d972bfa279e61426d791b7dd226a57f zesteros <angelo_384@hotmail.com> 1487968163 -0600	commit: [REF] BarometerActivity: conversion to HPA fixed
+58a9265d2d972bfa279e61426d791b7dd226a57f 4ff8747d53ed07005dabb6e5cc73b6e954e79cce zesteros <angelo_384@hotmail.com> 1487968215 -0600	commit: [REF] MainActivity: Fragments changed by activities
+4ff8747d53ed07005dabb6e5cc73b6e954e79cce 61c05669669d3582f7b7799842159b0d999c5293 zesteros <angelo_384@hotmail.com> 1487968377 -0600	commit: [REF] PlotActivities: Androidplot library updated
+61c05669669d3582f7b7799842159b0d999c5293 22c847d603788244ea1333b4e8acbac5e91a3af1 zesteros <angelo_384@hotmail.com> 1487968410 -0600	commit: [REF] ComparisonPlotActivity: Pie Chart added for compare gases
+22c847d603788244ea1333b4e8acbac5e91a3af1 7fa24141fd8c3c0e548b6a5239fc9206b6a137fa zesteros <angelo_384@hotmail.com> 1488751324 -0600	commit: [REF] MainUnitTest: added Test for Navigation Bar
+7fa24141fd8c3c0e548b6a5239fc9206b6a137fa 6a918d5b0aed64c41a45e19c0b9f129a811aeb3f zesteros <angelo_384@hotmail.com> 1488751388 -0600	commit: [REF] Plot: Fixing zoom limits intent
+6a918d5b0aed64c41a45e19c0b9f129a811aeb3f 6b4df91e649486b92e3e345d9674a2bc119fc8ba zesteros <angelo_384@hotmail.com> 1488751431 -0600	commit: [ADD] AppCompatPreference: added inherited class
+6b4df91e649486b92e3e345d9674a2bc119fc8ba 353df56bdfd8f58605be5337c70893e9872b9740 zesteros <angelo_384@hotmail.com> 1488751500 -0600	commit: [ADD] SeekBarPreference: class for seekbar added
+353df56bdfd8f58605be5337c70893e9872b9740 f42dd5bdce047c50a83fb3296df4c500a7a8332c zesteros <angelo_384@hotmail.com> 1488751578 -0600	commit: [REF] SettingActivity: Alarm and advanced settings buttons added
+f42dd5bdce047c50a83fb3296df4c500a7a8332c d3a1afbd8062e31422f37a200d0af02bb6d5ebde zesteros <angelo_384@hotmail.com> 1488751619 -0600	commit: [REF] SeekbarPreference: Fixed font size
+d3a1afbd8062e31422f37a200d0af02bb6d5ebde 2ce4ef8d90632a7306d143b1b1e4015bff9a4300 zesteros <angelo_384@hotmail.com> 1488751758 -0600	commit: [REF] Table Data: Collapsing toolbar, custom data search, advanced details by register, double press to exit, clear search button, order by and operators added
+2ce4ef8d90632a7306d143b1b1e4015bff9a4300 824948b791fceff4f2bf954960201afd8acc9aaa zesteros <angelo_384@hotmail.com> 1488751802 -0600	commit: [REF] AirMonitorValues Adapter: added average to adapter
+824948b791fceff4f2bf954960201afd8acc9aaa 183153f04e10464e2519046da9c0545cd28b8a13 zesteros <angelo_384@hotmail.com> 1488751871 -0600	commit: [REF] Table: Added extra details and calculus for every data with UI
+183153f04e10464e2519046da9c0545cd28b8a13 f7757a00613c26b2456304d14cfe4331766f00aa zesteros <angelo_384@hotmail.com> 1488751946 -0600	commit: [REF] Bluetooth Thread: Gas alarm added
+f7757a00613c26b2456304d14cfe4331766f00aa 40fe810907220cca7e11c699b81bd52f2f461cae zesteros <angelo_384@hotmail.com> 1488751989 -0600	commit: [REF] Database: Custom Queries for data table added
+40fe810907220cca7e11c699b81bd52f2f461cae 5b536f90cb153cd4d0b56815aa379834c46cac7a zesteros <angelo_384@hotmail.com> 1488752123 -0600	commit: [REF] NavBar: Return array of images
+5b536f90cb153cd4d0b56815aa379834c46cac7a 0a2cc13661b8f538e850d6f23d3f7b9745e42f82 zesteros <angelo_384@hotmail.com> 1488752215 -0600	commit: [REF] Utils: Folder Refactor
+0a2cc13661b8f538e850d6f23d3f7b9745e42f82 06f329857d045ceab0e63be96d6c54d1b8fb1d5d zesteros <angelo_384@hotmail.com> 1488752308 -0600	commit: [REF] Travis CI: Travis Script added
+06f329857d045ceab0e63be96d6c54d1b8fb1d5d 80cb89104cff61fe1b9cedb919c07744ce4bb136 zesteros <angelo_384@hotmail.com> 1488752421 -0600	commit: [REF] Travis CI: folder changed
+80cb89104cff61fe1b9cedb919c07744ce4bb136 631570b7f7477536328f7adc9f2d025fe2229e24 zesteros <angelo_384@hotmail.com> 1488773102 -0600	commit: [REF] TableFixHeader: Date Thumb added
+631570b7f7477536328f7adc9f2d025fe2229e24 da5292b08a6abd2741c02b270d057cdea7308804 zesteros <angelo_384@hotmail.com> 1488773216 -0600	commit: [ADD] Travis CI: Travis script added
+da5292b08a6abd2741c02b270d057cdea7308804 631570b7f7477536328f7adc9f2d025fe2229e24 zesteros <angelo_384@hotmail.com> 1488773330 -0600	reset: moving to HEAD~
+631570b7f7477536328f7adc9f2d025fe2229e24 675f5e53563edda8f495126019cdaa2cd47e3d99 zesteros <angelo_384@hotmail.com> 1488773832 -0600	commit: [REF] Global Variable: reduction arduino read for computing values in the smartphone
+675f5e53563edda8f495126019cdaa2cd47e3d99 ba2bf7330e43645c79e83ce9d273ef0ab9783e64 zesteros <angelo_384@hotmail.com> 1488774025 -0600	commit: [REF] README: Travis added
+ba2bf7330e43645c79e83ce9d273ef0ab9783e64 a3a3b2019aa617ca03858c64c9a59bfb882ed727 zesteros <angelo_384@hotmail.com> 1488774157 -0600	commit: [REF] InternetThread: package changed
+a3a3b2019aa617ca03858c64c9a59bfb882ed727 893d01a7a25dff1a67a132d9bf88418f994c3b08 zesteros <angelo_384@hotmail.com> 1488774231 -0600	commit: [REF] Layouts: reading values in AirMonitor layout added
+893d01a7a25dff1a67a132d9bf88418f994c3b08 7ac0e33a14a7c55fa2dee2239c285ea14c26bda8 zesteros <angelo_384@hotmail.com> 1488774282 -0600	commit: [REF] General: Minor bug fixes
+7ac0e33a14a7c55fa2dee2239c285ea14c26bda8 4032366bb81de37f430e682c84982638b03639f6 zesteros <angelo_384@hotmail.com> 1488774436 -0600	commit: [ADD] Travis CI: Travis script added
+4032366bb81de37f430e682c84982638b03639f6 e3a2924fbbfb0d60f553d024278f2e216f92fa0a zesteros <angelo_384@hotmail.com> 1488774561 -0600	commit: [REF] CSV: opencsv retired
+e3a2924fbbfb0d60f553d024278f2e216f92fa0a 8707432b4f84466a08fba690a8a43b296fdd2c7b zesteros <angelo_384@hotmail.com> 1488775342 -0600	commit: [REF] Travis CI: Travis script fixed
+8707432b4f84466a08fba690a8a43b296fdd2c7b 76f2482d3dabf13d5d22343e421164c1d5f3162b zesteros <angelo_384@hotmail.com> 1488775504 -0600	commit: [REF] Travis CI: Travis script fixed api target
+76f2482d3dabf13d5d22343e421164c1d5f3162b 046dac4907ca59c70ca3277abbed53cf906b8662 zesteros <angelo_384@hotmail.com> 1488776636 -0600	commit: [ADD] Travis CI: Travis script fixed
+046dac4907ca59c70ca3277abbed53cf906b8662 185af9eb5b87b923717d6cbfb9d0992bb4e8bc96 zesteros <angelo_384@hotmail.com> 1488777768 -0600	commit: [ADD] Travis CI: Travis script fixing

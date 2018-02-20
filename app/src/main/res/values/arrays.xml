@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gas_unity">
+        <item>PPM (Partes por millón)</item>
+        <item>Mg/M3</item>
+    </string-array>
+    <string-array name="gas_unity_values">
+        <item>PPM</item>
+        <item>Mg/M3</item>
+    </string-array>
+    <string-array name="volt_unity">
+        <item>mV</item>
+        <item>V</item>
+    </string-array>
+    <string-array name="volt_unity_values">
+        <item>mV</item>
+        <item>V</item>
+    </string-array>
+    <string-array name="update_interval">
+        <item>1 Segundo</item>
+        <item>5 Segundos</item>
+        <item>10 Segundos</item>
+    </string-array>
+    <string-array name="update_interval_values">
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+    <string-array name="temperature_unity">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="temperature_unity_values">
+        <item>°C</item>
+        <item>°F</item>
+    </string-array>
+    <string-array name="pressure_unity">
+        <item>hPA</item>
+        <item>PA</item>
+        <item>PSI</item>
+    </string-array>
+    <string-array name="pressure_unity_values">
+        <item>hPA</item>
+        <item>PA</item>
+        <item>PSI</item>
+    </string-array>
+
+    <string-array name="length_unity">
+        <item>Metros</item>
+        <item>Millas</item>
+    </string-array>
+    <string-array name="length_unity_values">
+        <item>mt</item>
+        <item>miles</item>
+    </string-array>
+    <string-array name="timeout">
+        <item>20 segundos</item>
+        <item>15 segundos</item>
+        <item>10 segundos</item>
+        <item>5 segundos</item>
+    </string-array>
+    <string-array name="timeout_values">
+        <item>20000</item>
+        <item>15000</item>
+        <item>10000</item>
+        <item>5000</item>
+    </string-array>
+</resources>

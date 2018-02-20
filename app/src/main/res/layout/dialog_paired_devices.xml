@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/paired_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dialog_paired_devices_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/cyan_800"
+        android:textSize="18sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/grey_dividers"></View>
+
+    <ListView
+        android:id="@+id/paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:divider="@color/cyan_100_accent">
+    </ListView>
+<!--
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/device_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/dialog_available_devices_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cyan_800"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/discover_progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="right|center_vertical"
+            android:indeterminate="false" />
+    </FrameLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/grey_dividers"></View>
+
+    <ListView
+        android:id="@+id/available_devices"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:divider="@color/cyan_100_accent"></ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey_dividers"></View>-->
+</LinearLayout>

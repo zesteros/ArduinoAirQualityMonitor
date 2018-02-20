@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/gas_plot"
+        style="@style/APDefacto.Light"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        androidplot.renderMode="use_background_thread"
+        ap:title="A Dynamic XY Plot"
+        ap:domainTitle="Domain"
+        ap:rangeTitle="Range"
+        ap:legendTextSize="15sp"
+        ap:legendIconHeight="15dp"
+        ap:legendIconWidth="15dp"
+        ap:legendHeight="25dp"
+        ap:legendAnchor="right_bottom" />
+
+</LinearLayout>

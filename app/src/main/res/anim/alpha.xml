@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A fade-in or fade-out animation. Represents an AlphaAnimation.
+
+    attributes:
+    android:fromAlpha
+        Float. Starting opacity offset, where 0.0 is transparent and 1.0 is opaque.
+    android:toAlpha
+        Float. Ending opacity offset, where 0.0 is transparent and 1.0 is opaque. -->
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromAlpha="0.0"
+    android:toAlpha="1.0"
+    android:duration="1300" />
+<!--Una animación de cambio de tamaño.
+ Puede especificar el punto central de
+ la imagen de la que crece hacia afuera
+ (o hacia dentro) especificando PivotX
+ y pivotY. Por ejemplo, si estos valores
+son 0, 0 (esquina superior izquierda),
+todo el crecimiento será hacia abajo
+y hacia la derecha. Representa una
+ScaleAnimation.-->

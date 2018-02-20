@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBarSetting" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:background">@color/cyan_800</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+        <item name="android:titleTextColor">@color/white</item>
+    </style>
+</resources>

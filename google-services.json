@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "538462584976",
+    "firebase_url": "https://monitor-de-aire.firebaseio.com",
+    "project_id": "monitor-de-aire",
+    "storage_bucket": "monitor-de-aire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538462584976:android:1abd3dc297eafb8c",
+        "android_client_info": {
+          "package_name": "angelo.itl.arduinoairqualitymonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538462584976-clge159ujj0verskaim3a3eaub9u19u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-eLVyB4zgqZgjmcnrtpHMyFZZV1slny0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

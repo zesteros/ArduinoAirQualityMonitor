@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/between">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.environment.EnvironmentActivity">
+
+        <ProgressBar
+            android:id="@+id/altimeter_progressbar"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="@dimen/weather_progressbar_vertical_width"
+            android:layout_height="@dimen/weather_progressbar_height"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/progress_bar_weather_margin_right" />
+
+        <ListView
+            android:id="@+id/altimeter_list_view"
+            android:layout_width="@dimen/listview_weather_width"
+            android:layout_height="@dimen/list_view_weather_height"
+            android:layout_gravity="left|top"
+            android:layout_marginRight="@dimen/list_view_weather_margin_right"
+            android:scrollbars="none" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/indicator_weather"
+            android:layout_height="@dimen/indicator_weather"
+            android:layout_gravity="top|right">
+
+            <View
+                android:id="@+id/color_sea_level"
+                android:layout_width="@dimen/color_pressure_indicator_width"
+                android:layout_height="@dimen/color_pressure_indicator_height"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="top|right"
+                android:background="@drawable/pressure_asl_indicator"></View>
+
+            <TextView
+                android:id="@+id/sea_level_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/color_sea_level"
+                android:layout_centerHorizontal="true"
+                android:text="@string/temperature_indicator"
+                android:textColor="@color/black"
+                android:textSize="4pt" />
+
+            <View
+                android:id="@+id/color_pressure"
+                android:layout_width="@dimen/color_pressure_indicator_width"
+                android:layout_height="@dimen/color_pressure_indicator_height"
+                android:layout_below="@+id/sea_level_tv"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/pressure_indicator_background"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/color_pressure"
+                android:layout_centerHorizontal="true"
+                android:text="@string/humidity_indicator"
+                android:textColor="@color/black"
+                android:textSize="4pt" />
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>

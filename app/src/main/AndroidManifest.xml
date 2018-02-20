@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="angelo.itl.arduinoairqualitymonitor"
+    android:versionCode="2"
+    android:versionName="1.5">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.main.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.main.SplashScreen"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.airmonitor.AirMonitorActivity" />
+        <activity
+            android:name=".activity.setting.GeneralPreferenceActivity"/>
+            <!--android:theme="@style/Setting" -->
+        <activity
+            android:name=".activity.airmonitor.AlarmActivity"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".activity.table.TableActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.environment.EnvironmentActivity"/>
+        <activity android:name=".activity.plot.ComparisonGasPlotActivity"/>
+        <activity android:name=".activity.plot.HistoricalAllGasPlotActivity"/>
+        <activity android:name=".activity.plot.HistoricalCo2PlotActivity"/>
+        <activity android:name=".activity.plot.CarbonDioxideRealTimePlotActivity"/>
+        <activity android:name=".activity.plot.RemainingGasesRealTimePlotActivity"/>
+    </application>
+</manifest>

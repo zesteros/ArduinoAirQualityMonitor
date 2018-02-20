@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Air Quality Monitor</string>
+    <string name="title_activity_main">Air Quality Monitor</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="menu_info">Acerca de</string>
+    <string name="menu_info_title">Información</string>
+    <string name="menu_info_content" formatted="false">Sensor de Calidad de Aire y Barómetro\n\nDesarrollado y diseñado por Angelo de Jesus Loza Martinez, Alumno del Instituto Tecnólogico de León de la carrera Ingeniería en Sistemas Computacionales.\n\nVersión: %1$s\nLicencia: Apache 2.0</string>
+    <string name="menu_get_out">Salir</string>
+    <string name="menu_refresh">Actualizar</string>
+    <string name="menu_refresh_update">Actualizar</string>
+    <string name="menu_refresh_update_automatically">Actualizar automáticamente</string>
+    <string name="menu_refresh_stop_update">Dejar de actualizar automáticamente</string>
+    <string name="menu_discard_database">Base de datos eliminada</string>
+    <string name="dialog_change_mac_title">Cambiar Dirección MAC</string>
+    <string name="dialog_paired_devices_title">DISPOSITIVOS VINCULADOS</string>
+    <string name="dialog_available_devices_title">DISPOSITIVOS DISPONIBLES</string>
+    <string name="dialog_devices_not_found">No hay dispositivos vinculados</string>
+    <string name="dialog_discovery_devices_not_found">No se encontraron dispositivos</string>
+    <string name="dialog_alert_title">Alerta</string>
+    <string name="dialog_alert_subtitle">Se han detectado niveles peligrosos de PPM de alguno de los diferentes gases, por favor tome sus precauciones</string>
+    <string name="dialog_stop_show_alert_msg">No volver a mostrar</string>
+    <string name="dialog_delete_title">Eliminar base de datos</string>
+    <string name="dialog_delete_message">¿Está seguro de eliminar la base de datos?\nPerderá todos los registros si no ha exportado la base de datos.</string>
+    <string name="dialog_delete_database_button">Borrar base de datos</string>
+    <string name="dialog_title_save_data">Guardado automático de datos</string>
+    <string name="dialog_subtitle_save_data">¿Desea guardar los datos automáticamente?</string>
+    <string name="preference_air_monitor_title">Monitor de aire</string>
+    <string name="dialog_loading_plot">Cargando gráfico...</string>
+    <string name="preference_air_monitor_gas_limit_values">Límites de lectura para determinar la calidad del aire</string>
+    <string name="preference_air_monitor_gas_limit_ratio">Ajuste de la proporción de los límites</string>
+    <!--<string name="preference_air_monitor_gas_limit_summary">Establece los límites de lectura</string>-->
+    <string name="preference_air_monitor_gas_limit_summary">Los valores establecidos son:\n$1</string>
+    <string name="preference_air_monitor_savedata_summary">Establezca si se guardan automáticamente los datos en la base de datos</string>
+    <string name="preference_air_monitor_savedata_title">Guardar automáticamente los datos</string>
+    <string name="preference_air_monitor_gas_unity_title">Unidad de medida de gases</string>
+    <string name="preference_air_monitor_volt_unity_title">Unidad de medida de voltaje</string>
+    <string name="preference_air_monitor_update_interval_title">Intervalo de actualización de datos</string>
+    <string name="preference_air_monitor_temp_unity_title">Unidad de medida de temperatura</string>
+    <string name="preference_air_monitor_pressure_unity_title">Unidad de medida de presión</string>
+    <string name="preference_air_monitor_length_unity_title">Unidad de medida de distancia</string>
+    <string name="preference_general_title">Generales</string>
+    <string name="preference_general_run_in_background">Ejecutar en segundo plano</string>
+    <string name="preference_general_run_in_background_summary">Establezca si desea recibir datos del Arduino en segundo plano</string>
+    <string name="preference_general_timeout_title">Tiempo de espera máximo de conexión</string>
+
+    <string name="dialog_search_title">Búsqueda por fecha de registro</string>
+    <string name="dialog_sort_registers">Ordenar registros</string>
+    <string name="dialog_sort_message">¿Cómo desea ordenar los datos?</string>
+    <string name="dialog_sort_asc">Ascendente</string>
+    <string name="dialog_sort_desc">Descendente</string>
+    <string name="dialog_search_message">¿Cómo quiere buscar el registro?</string>
+    <string name="dialog_search_date_button">Sólo por fecha</string>
+    <string name="dialog_search_date_time_button">Por fecha y hora</string>
+    <string name="find_date_toast">Registros encontrados exitosamente en la fecha: </string>
+    <string name="did_not_find_date_toast">No se encontraron datos en la fecha: </string>
+    <string name="register_deleted_succesfully">Registro eliminado exitosamente</string>
+    <string name="register_not_deleted">No se pudo eliminar el registro, inténtelo de nuevo</string>
+    <string name="dialog_search_register_title">Fecha de registro</string>
+    <string name="dialog_search_register_subtitle">Seleccione una fecha a buscar</string>
+
+    <string name="toast_bye_message">¡Gracias por usar esta app!</string>
+    <string name="toast_press_again_to_exit">Presiona de nuevo la tecla ATRÁS para salir</string>
+    <string name="alert_dialog_accept">Aceptar</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="alert_dialog_deny">Denegar</string>
+    <!-- poner aqui el string del altimetro -->
+    <string name="title_air_monitor">Calidad del aire</string>
+    <string name="air_quality_textview">CALIDAD DEL AIRE: </string>
+    <string name="good">BUENA</string>
+    <string name="moreorless">SATISFACTORIA</string>
+    <string name="bad">MALA</string>
+    <string name="subtitle_air_monitor">Valores</string>
+    <string name="title_plot_co2">Gráfico dióxido de carbono</string>
+    <string name="title_plot_all_gases">Gráfico de gases no abundantes</string>
+    <string name="title_enviroment">Clima</string>
+    <string name="subtitle_altimeter">Termómetro y Barómetro</string>
+    <string name="title_register">Registro</string>
+    <string name="subtitle_register">Datos</string>
+    <string name="subtitle_historical_co2_plot">Gráfico histórico del CO2</string>
+    <string name="subtitle_historical_allgases_plot">Gráfico histórico de los demás gases</string>
+    <string name="subtitle_plot">Gráfico de los Gases</string>
+    <string name="subtitle_register_search_result">Resultados</string>
+
+    <string name="bluetooth_connecting">Conectando...</string>
+    <string name="bluetooth_connected">Conectado</string>
+    <string name="bluetooth_recieve">Recibiendo datos...</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="connect">Conectar</string>
+    <string name="connecting">Conectando</string>
+    <string name="bluetooth_connection_successful">Conexión Exitosa</string>
+    <string name="request_bt_pair">Por favor, empareja el dispositivo con Arduino</string>
+    <string name="request_active_bt">Por favor, activa el Bluetooth</string>
+    <string name="connection_failed">Error de conexión, comprueba que el Arduino esta conectado
+     correctamente</string>
+    <string name="timeout_elapsed">Tiempo fuera de conexión, establezca una mayor en ajustes</string>
+    <string name="inconsistent_data">Error de recepción de datos, inténtalo de nuevo.</string>
+    <string name="request_bluetooth_connection">Por favor, activa la conexión a Arduino</string>
+    <string name="conection_lost">Se ha perdido la conexión</string>
+    <string name="restart">Reiniciar conexión</string>
+    <string name="loading">Cargando...</string>
+    <string name="data_saved">Datos guardados exitosamente</string>
+    <string name="empty_database">No hay datos almacenados</string>
+    <string name="export_database_dialog_title">Exportar Base de Datos</string>
+    <string name="export_database_dialog_message">¿Desea exportar al almacenamiento externo la base de datos?</string>
+
+    <string name="route_data_saved">Guardado en:</string>
+
+    <string name="plot_co2_title">MONITOREO CO2 EN TIEMPO REAL</string>
+    <string name="plot_all_gases">MONITOREO DE GASES EN TIEMPO REAL</string>
+    <string name="plot_domain_label">Tiempo</string>
+
+    <string name="subtitle_sensor_details">DETALLES DEL SENSOR</string>
+    <string name="title_lv_co2meter">PARTÍCULAS LEIDAS</string>
+    <string name="title_lv_plot">GRÁFICOS</string>
+    <string name="measure_general_ppm">Voltaje (1 - 600 mV)</string>
+    <string name="measure_co_ppm">CO (1 - 50 PPM)</string>
+    <string name="measure_co2_ppm">CO2 (1 - 5000 PPM)</string>
+    <string name="measure_ethanol_ppm">Etanol(1 - 1000 PPM)</string>
+    <string name="measure_nh4_ppm">NH4 (1 - 50 PPM)</string>
+    <string name="measure_toluene_ppm">Tolueno (1 - 100 PPM)</string>
+    <string name="measure_acetone_ppm">Acetona (1 - 1000 PPM)</string>
+
+    <string-array name="drawer_items">
+        <item>Calidad del aire</item>
+        <item>Valores</item>
+        <item>Gráfico dióxido de carbono</item>
+        <item>Gráfico de gases no abundantes</item>
+        <item>Clima</item>
+        <item>Termómetro y Barómetro</item>
+        <item>Registro</item>
+        <item>Datos</item>
+        <item>Gráfico histórico del CO2</item>
+        <item>Gráfico histórico de los demás gases</item>
+        <item>Gráfico de comparación de los gases</item>
+    </string-array>
+
+    <string-array name="no_connection_properties">
+        <item>Sin dirección MAC</item>
+        <item>Sin UUID</item>
+        <item>Sin nombre del dispositivo</item>
+    </string-array>
+    <string-array name="name_connection_properties">
+        <item>DIRECCIÓN MAC</item>
+        <item>UUID</item>
+        <item>NOMBRE DEL DISPOSITIVO</item>
+    </string-array>
+    <string-array name="subtitle_general_values">
+        <item>VOLTAJE</item>
+        <item>NIVELES PELIGROSOS DE PPM</item>
+    </string-array>
+    <string name="issmoke">Positivo</string>
+    <string name="isnotsmoke">Negativo</string>
+    <string-array name="subtitle_gases">
+        <item>CO (MONÓXIDO DE CARBONO)</item>
+        <item>CO2 (DIÓXIDO DE CARBONO)</item>
+        <item>C2H6O (ETANOL)</item>
+        <item>NH4 (AMONIO)</item>
+        <item>C6H5CH3 (TOLUENO)</item>
+        <item>‎C3H6O (ACETONA)</item>
+    </string-array>
+    <string name="ppm"> PPM </string>
+    <string name="mv"> mV </string>
+    <string name="kOhm"> kOhm </string>
+    <string name="slide_request">Por favor, desliza los elementos para observar más valores</string>
+    <string-array name="titles_altimeter">
+        <item>HUMEDAD RELATIVA</item>
+        <item>TEMPERATURA</item>
+        <item>PRESIÓN ATMOSFÉRICA</item>
+        <item>ALTITUD</item>
+        <item>PRESIÓN ATMOSFÉRICA SNDM</item>
+    </string-array>
+    <string name="humidity_indicator">Humedad</string>
+    <string name="temperature_indicator">Temperatura</string>
+    <string-array name="columns">
+        <item>FECHA</item>
+        <item>CO</item>
+        <item>CO2</item>
+        <item>ETANOL</item>
+        <item>AMONIO</item>
+        <item>TOLUENO</item>
+        <item>ACETONA</item>
+        <item>HUMEDAD</item>
+        <item>TEMPERATURA</item>
+        <item>PRESIÓN</item>
+    </string-array>
+    <string-array name="columns_order_by_criterion">
+        <item>Ninguna</item>
+        <item>DESCENDENTE</item>
+        <item>ASCENDENTE</item>
+    </string-array>
+    <string-array name="columns_order">
+        <item>Ninguno</item>
+        <item>FECHA</item>
+        <item>CO</item>
+        <item>CO2</item>
+        <item>ETANOL</item>
+        <item>AMONIO</item>
+        <item>TOLUENO</item>
+        <item>ACETONA</item>
+        <item>HUMEDAD</item>
+        <item>TEMPERATURA</item>
+        <item>PRESIÓN</item>
+    </string-array>
+    <string-array name="columns_search">
+        <item>TODOS</item>
+        <item>FECHA</item>
+        <item>CO</item>
+        <item>CO2</item>
+        <item>ETANOL</item>
+        <item>AMONIO</item>
+        <item>TOLUENO</item>
+        <item>ACETONA</item>
+        <item>HUMEDAD</item>
+        <item>TEMPERATURA</item>
+        <item>PRESIÓN</item>
+    </string-array>
+    <string-array name="operator_name">
+        <item>Parecido</item>
+        <item>Igual</item>
+        <item>Menor</item>
+        <item>Menor o igual</item>
+        <item>Mayor</item>
+        <item>Mayor o igual</item>
+    </string-array>
+    <string-array name="operator">
+        <item>like</item>
+        <item>=</item>
+        <item>&lt;</item><!--"<"-->
+        <item>&lt;=</item><!--"<="-->
+        <item>&gt;</item><!--">"-->
+        <item>&gt;=</item><!--">="-->
+    </string-array>
+    <string-array name="details_dialog">
+        <item>CAMPO</item>
+        <item>VALOR</item>
+        <item>PROMEDIO DEL DÍA</item>
+        <item>MÁXIMO</item>
+        <item>MÍNIMO</item>
+    </string-array>
+    <string-array name="gases">
+        <item>CO</item>
+        <item>CO2</item>
+        <item>ETANOL</item>
+        <item>NH4</item>
+        <item>TOLUENO</item>
+        <item>ACETONA</item>
+    </string-array>
+    <string-array name="gases_by_alpha">
+        <item>ETANOL</item>
+        <item>ACETONA</item>
+        <item>AMONIO</item>
+        <item>TOLUENO</item>
+        <item>CO</item>
+        <item>CO2</item>
+    </string-array>
+    <string-array name="sort_items">
+        <item>Cantidad</item>
+        <item>Fecha</item>
+    </string-array>
+    <string name="porcent">%</string>
+    <string name="title_activity_device_list">hahahaha</string>
+    <string name="background_running">Se recolectarán los datos en segundo plano</string>
+    <string name="open_nav_drawer">open</string>
+    <string name="close_nav_drawer">close</string>
+    <string name="preference_import_database">Importar base de datos</string>
+    <string name="preference_import_database_summary">Importar base de datos desde almacenamiento externo (formato .csv) contenido en la carpeta: Arduino Air Quality Monitor, debe de tener el nombre de GAS_READING.csv</string>
+    <string name="import_button">import_button</string>
+    <string name="import_success">Importación exitosa</string>
+    <string name="import_failed">Lo sentimos, ha ocurrido un error al importar</string>
+    <string name="import_dialog_title">Importar base de datos</string>
+    <string name="import_dialog_message">¿Estás seguro que quieres importar la base de datos?\nNo se pueden importar datos ya almacenados en la base de datos</string>
+    <string name="connection_mode_title">Modo de conexión</string>
+    <string name="connection_mode_message">¿Cómo desea conectarse al dispositivo?</string>
+    <string name="connection_mode_bluetooth">Bluetooth</string>
+    <string name="connection_mode_internet" />
+    <string name="preference_settings_advanced">Ajustes avanzados</string>
+    <string name="preference_settings_advanced_key">advanced</string>
+    <string name="preference_settings_advanced_limits">Límtes de calidad del aire</string>
+    <string name="internet_connection">Internet</string>
+    <string name="cant_connect_to_server">No se puede conectar al servidor</string>
+    <string name="connection_to_server_success">Conexión al servidor exitosa</string>
+    <string name="ip_preference_summary">Establezca la dirección del servidor del monitor de calidad de aire</string>
+    <string name="ip_preference_hint">192.168.1.0/host.servidor.com</string>
+    <string name="ip_preference_default">kuali.sytes.net</string>
+    <string name="ip_preference_key">ip_preference</string>
+    <string name="port_preference_key">port_preference</string>
+    <string name="port_preference_summary">Establezca el puerto para acceder al dispositivo</string>
+    <string name="port_preference_hint">1001/8080/443</string>
+    <string name="port_preference_default">10001</string>
+    <string name="ip_preference_title">Dirección del servidor</string>
+    <string name="port_preference_title">Puerto de acceso</string>
+    <string name="ip_port_error">Error en la conexión (Error de IP o puerto)</string>
+    <string name="input_error">Error en la conexión (No se pueden leer los datos)</string>
+    <string name="network_unreachable_exception">Network is unreachable</string>
+    <string name="internet_disconnected">Error en la conexión (Internet desconectado)</string>
+    <string name="no_route_to_host">Error en la conexión (Dirección o puerto erróneo)</string>
+    <string name="no_route_to_host_exception">No route to host</string>
+    <string name="alarm_notification_title">PELIGRO</string>
+    <string name="alarm_notification_message">¡Se han detectado niveles peligrosos de ppm!</string>
+    <string name="limit_key">gas_normal_limit_ratio</string>
+    <string name="limit_key_ratio">gas_hazardous_limit_ratio</string>
+    <string name="normal_value">": Normal = "</string>
+    <string name="max_value">" Peligro = "</string>
+    <string name="time_normal_values">veces los valores normales</string>
+    <string name="time_normal_value">vez el valor normal</string>
+    <string name="read_value">Valores leídos:</string>
+    <string name="limit_value">Límite normal:</string>
+    <string name="hazard_limit">Límite peligroso:</string>
+    <string name="turn_off_alarm">Apagar alarma</string>
+    <string name="internet_setting_title">Conexión a Internet</string>
+    <string name="bluetooth_setting_title">Conexión por Bluetooth</string>
+    <string name="alarm_setting_title">Encender alarma</string>
+    <string name="alarm_setting_summary">Establezca si desea mantener encendida la alarma de gas</string>
+    <string name="vibration_setting_key">vibrator_key</string>
+    <string name="vibration_setting_summary">Ingrese la intensidad de vibración cuando suene la alarma</string>
+    <string name="vibration_setting_title">Intensidad de vibración</string>
+    <string name="alarm_setting_key">alarm_setting</string>
+    <string name="alarm_setting_screen_title">Ajustes de alarma de gas</string>
+    <string name="preference_air_monitor_update_interval_category_title">Actualización de datos</string>
+    <string name="historical_data_length_error">Se necesitan recopilar más datos (más días) para graficar</string>
+    <string name="avg_air_monitor_title">Promedio del día</string>
+    <string name="location">LOCALIZACIÓN:</string>
+    <string name="automatic_limits_key">automatic_limits</string>
+    <string name="automatic_limits_title">Límites automáticos</string>
+    <string name="automatic_limits_summary">Establezca si desea que la aplicación establezca los límites de calidad de aire automáticamente</string>
+    <string name="bluetooth_time_out_setting_summary">Establezca el tiempo de espera máximo para tratar de conectarse al dispositivo Bluetooth</string>
+    <string name="interior_indicator">INTERIOR</string>
+    <string name="exterior_indicator">EXTERIOR</string>
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Busca algo</string>
+    <string name="expand">Opciones</string>
+    <string name="search_register">Buscar registro</string>
+    <string name="data_to_search">Dato a buscar</string>
+    <string name="insert_data">Inserta un dato</string>
+    <string name="clear_field">Limpiar</string>
+    <string name="field_filter">Filtro de campo</string>
+    <string name="amount_filter">Filtro de cantidad</string>
+    <string name="show_all_data">Mostrar todos los datos</string>
+    <string name="delete_register">Borrar registro</string>
+    <string name="show_register_details">Mostrar detalles de registro</string>
+    <string name="register_details">Detalles del registro</string>
+    <string name="order_by">Ordenar por</string>
+    <string name="order_by_criterion">Ordenar de forma</string>
+    <string name="all_other_gas">Todos los demás</string>
+</resources>
+
+

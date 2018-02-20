@@ -1,0 +1,127 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.main.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/stripes">
+
+        <RelativeLayout
+            android:id="@+id/main_sublayout_start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_sublayout_main"
+            android:background="@drawable/layout_rounded_corner">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_divider_main"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/grey_dividers">
+
+            </View>
+
+            <Button
+                android:id="@+id/connect_button"
+                android:layout_width="@dimen/connect_button"
+                android:layout_height="@dimen/connect_button"
+                android:text="@string/connect"
+                android:background="@drawable/round_button"
+                android:layout_marginTop="@dimen/connect_button_margin"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:elevation="0dp"
+                style="@style/Widget.AppCompat.Button" />
+
+            <TextView
+                android:id="@+id/bluetooth_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/bluetooth_tv_margin_top"
+                android:text="@string/bluetooth_connecting"
+                android:textSize="@dimen/text_size_bt_textview"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/black"
+                android:layout_below="@+id/connect_button"
+                android:layout_centerHorizontal="true" />
+
+            <ProgressBar
+                android:id="@+id/bluetooth_progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bluetooth_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margintop_progresbar_main" />
+
+            <ImageView
+                android:id="@+id/bluetoth_image"
+                android:layout_width="@dimen/bluetooth_image_width"
+                android:layout_height="@dimen/bluetooth_image_height"
+                android:src="@drawable/ic_bluetooth"
+                android:layout_marginStart="@dimen/margin_start_bt_image"
+                android:layout_marginTop="@dimen/margin_top_bt_image"
+                android:layout_alignTop="@+id/connect_button"
+                android:layout_alignParentStart="true"
+                android:contentDescription="" />
+
+            <ImageView
+                android:id="@+id/arduino_image"
+                android:layout_width="@dimen/arduino_image_width"
+                android:layout_height="@dimen/arduino_image_height"
+                android:src="@drawable/ic_arduino"
+                android:layout_marginEnd="@dimen/margin_end_img_arduino"
+                android:layout_alignBottom="@+id/bluetoth_image"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="arduino_image" />
+
+            <TextView
+                android:id="@+id/connection_properties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_with_shadow"
+                android:padding="@dimen/connection_prop_padding"
+                android:shadowColor="@color/grey_600"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:foregroundGravity="center"
+                android:layout_above="@+id/view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/connection_prop_margin_top"
+                android:contentDescription="bluetooth_image" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout
+            android:id="@+id/main_sublayout_end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/main_sublayout_start">
+
+            <ListView
+                android:id="@+id/connection_properties"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+    <fragment
+        android:id="@+id/navigation_drawer"
+        class="angelo.itl.arduinoairqualitymonitor.fragment.NavigationDrawerFragment"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        tools:layout="@layout/fragment_navigation_drawer" />
+
+</android.support.v4.widget.DrawerLayout>

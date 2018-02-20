@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.airmonitor.AirMonitorActivity">
+
+    <ScrollView
+        android:id="@+id/air_monitor_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@id/android:list"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/air_monitor_list_view_height"
+                android:divider="@color/grey_dividers"
+                android:scrollbars="none" />
+
+            <ProgressBar
+                android:id="@+id/volt_progress_bar"
+                style="@style/CustomProgressBar"
+                android:layout_width="@dimen/air_monitor_progressbar_width"
+                android:layout_height="@dimen/air_monitor_progressbar_height"
+                android:layout_below="@+id/listview_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/value_general"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/measure_general_ppm"
+                android:textColor="@color/black"
+                android:textStyle="italic" />
+
+
+            <ListView
+                android:id="@+id/ppm_gases_list"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/list_view_gas_list"
+                android:scrollbars="horizontal">
+
+            </ListView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/air_quality_textview"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/air_quality_text_view" />
+
+            <TextView
+                android:id="@+id/air_quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="test"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/grey2"
+                android:textSize="@dimen/air_quality_text_view" />
+
+            <ImageView
+                android:id="@+id/air_quality_indicator"
+                android:layout_width="@dimen/air_quality_indicator"
+                android:layout_height="@dimen/air_quality_indicator"
+                android:layout_gravity="center|bottom" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/location"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/black"
+                android:textSize="@dimen/air_quality_text_view" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="INTERIOR"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/grey2"
+                android:textSize="@dimen/air_quality_text_view"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="@dimen/floating_button_margin"
+        android:alpha="100"
+        android:src="@drawable/ic_save_white_36dp"
+        app:backgroundTint="@color/between_500"
+        app:fabSize="normal" />
+</FrameLayout>

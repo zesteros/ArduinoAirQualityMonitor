@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_air_monitor_title">
+        <CheckBoxPreference
+            android:key="save_data_automatically"
+            android:summary="@string/preference_air_monitor_savedata_summary"
+            android:title="@string/preference_air_monitor_savedata_title" />
+        <ListPreference
+            android:defaultValue="PPM"
+            android:entries="@array/gas_unity"
+            android:entryValues="@array/gas_unity_values"
+            android:key="measure_gas_unity"
+            android:title="@string/preference_air_monitor_gas_unity_title" />
+        <ListPreference
+            android:defaultValue="mV"
+            android:entries="@array/volt_unity"
+            android:entryValues="@array/volt_unity_values"
+            android:key="measure_volt_unity"
+            android:title="@string/preference_air_monitor_volt_unity_title" />
+        <Preference
+            android:title="@string/alarm_setting_screen_title"
+            android:key="alarm_setting_item"/>
+        <Preference
+            android:title="@string/preference_settings_advanced"
+            android:key="setting_advanced_item"/>
+        <!--<PreferenceScreen android:title="@string/alarm_setting_screen_title">
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/alarm_setting_key"
+                android:summary="@string/alarm_setting_summary"
+                android:title="@string/alarm_setting_title" />
+            <angelo.itl.arduinoairqualitymonitor.activity.setting.SeekBarPreference
+                android:defaultValue="300"
+                android:key="@string/vibration_setting_key"
+                android:max="1000"
+                android:summary="@string/vibration_setting_summary"
+                android:title="@string/vibration_setting_title" />
+        </PreferenceScreen>-->
+        <!--<PreferenceScreen
+            android:key="@string/preference_settings_advanced_key"
+            android:title="@string/preference_settings_advanced">
+            <PreferenceCategory android:title="@string/preference_settings_advanced_limits">
+                <CheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="@string/automatic_limits_key"
+                    android:summary="@string/automatic_limits_summary"
+                    android:title="@string/automatic_limits_title" />
+                <angelo.itl.arduinoairqualitymonitor.activity.setting.CustomSeekBarPreference
+                    android:defaultValue="100"
+                    android:key="@string/limit_key"
+                    android:max="400"
+                    android:summary="@string/preference_air_monitor_gas_limit_summary"
+                    android:title="@string/preference_air_monitor_gas_limit_values" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="@string/preference_air_monitor_update_interval_category_title">
+                <ListPreference
+                    android:defaultValue="1000"
+                    android:entries="@array/update_interval"
+                    android:entryValues="@array/update_interval_values"
+                    android:key="update_interval"
+                    android:title="@string/preference_air_monitor_update_interval_title" />
+            </PreferenceCategory>
+        </PreferenceScreen>-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/subtitle_altimeter">
+        <ListPreference
+            android:defaultValue="°C"
+            android:entries="@array/temperature_unity"
+            android:entryValues="@array/temperature_unity_values"
+            android:key="temp_unity"
+            android:title="@string/preference_air_monitor_temp_unity_title" />
+        <ListPreference
+            android:defaultValue="hPA"
+            android:entries="@array/pressure_unity"
+            android:entryValues="@array/pressure_unity_values"
+            android:key="pressure_unity"
+            android:title="@string/preference_air_monitor_pressure_unity_title" />
+        <ListPreference
+            android:defaultValue="mt"
+            android:entries="@array/length_unity"
+            android:entryValues="@array/length_unity_values"
+            android:key="length_unity"
+            android:title="@string/preference_air_monitor_length_unity_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/internet_setting_title">
+        <EditTextPreference
+            android:defaultValue="@string/ip_preference_default"
+            android:hint="@string/ip_preference_hint"
+            android:key="@string/ip_preference_key"
+            android:singleLine="false"
+            android:summary="@string/ip_preference_summary"
+            android:title="@string/ip_preference_title" />
+        <EditTextPreference
+            android:defaultValue="@string/port_preference_default"
+            android:hint="@string/port_preference_hint"
+            android:inputType="number"
+            android:key="@string/port_preference_key"
+            android:summary="@string/port_preference_summary"
+            android:title="@string/port_preference_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/bluetooth_setting_title">
+        <ListPreference
+            android:defaultValue="20000"
+            android:entries="@array/timeout"
+            android:entryValues="@array/timeout_values"
+            android:key="timeout"
+            android:summary="@string/bluetooth_time_out_setting_summary"
+            android:title="@string/preference_general_timeout_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_general_title">
+        <Preference
+            android:key="@string/import_button"
+            android:summary="@string/preference_import_database_summary"
+            android:title="@string/preference_import_database" />
+    </PreferenceCategory>
+</PreferenceScreen>

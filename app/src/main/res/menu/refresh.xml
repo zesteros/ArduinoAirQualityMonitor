@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_autorenew_white_36dp"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:orderInCategory="200">
+        <menu>
+            <item
+                android:id="@+id/update"
+                android:orderInCategory="100"
+                android:title="@string/menu_refresh_update"/>
+            <item
+                android:id="@+id/update_automatically"
+                android:orderInCategory="200"
+                android:title="@string/menu_refresh_update_automatically"/>
+            <item
+                android:id="@+id/stop_update_automatically"
+                android:orderInCategory="300"
+                android:title="@string/menu_refresh_stop_update"/>
+        </menu>
+    </item>
+</menu>

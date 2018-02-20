@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_bar_return"
+        android:icon="@drawable/ic_navigate_before_white_36dp"
+        android:orderInCategory="400"
+        android:title=""
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bar_discard"
+        android:icon="@drawable/ic_delete_white_36dp"
+        android:orderInCategory="300"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_bar_search"
+        android:icon="@drawable/ic_find_in_page_white_36dp"
+        android:orderInCategory="200"
+        android:title=""
+        app:showAsAction="always" />
+    <!--item
+        android:id="@+id/action_bar_search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_find_in_page_white_36dp"
+        android:orderInCategory="200"
+        android:showAsAction="always|collapseActionView"
+        android:actionViewClass="android.widget.SearchView" />-->
+
+    <item
+        android:id="@+id/save_database"
+        android:icon="@drawable/ic_unarchive_white_36dp"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <!--<item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_sort"
+        android:orderInCategory="50"
+        android:title=""
+        app:showAsAction="always"
+        />-->
+</menu>

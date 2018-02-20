@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/alarm_setting_screen_title"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/alarm_setting_key"
+        android:summary="@string/alarm_setting_summary"
+        android:title="@string/alarm_setting_title" />
+    <angelo.itl.arduinoairqualitymonitor.activity.setting.SeekBarPreference
+        android:defaultValue="300"
+        android:key="@string/vibration_setting_key"
+        android:max="1000"
+        android:summary="@string/vibration_setting_summary"
+        android:title="@string/vibration_setting_title" />
+</PreferenceScreen>
